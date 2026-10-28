@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="style.css">
+
 <?php
 session_start();
 include_once 'C:/Turma2/xampp/htdocs/mvc/Controller/MovimentacaoController.php';

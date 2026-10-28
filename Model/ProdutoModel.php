@@ -1,5 +1,5 @@
 <?php
-include_once 'C:/Turma2/xampp/htdocs/mvc/DB/Database.php';
+include_once 'C:/Turma2/xampp/htdocs/rascunhoprova/DB/Database.php';
 
 class ProdutosModel
 {

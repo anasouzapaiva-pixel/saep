@@ -1,7 +1,8 @@
+
 <?php
 session_start();
-include_once 'C:/Turma2/xampp/htdocs/mvc/Controller/ProdutoController.php';
-include_once 'C:/Turma2/xampp/htdocs/mvc/DB/Database.php';
+include_once 'C:/Turma2/xampp/htdocs/rascunhoprova/Controller/ProdutoController.php';
+include_once 'C:/Turma2/xampp/htdocs/rascunhoprova/DB/Database.php';
 
 
 if (empty($_SESSION['id_usuario'])) {
@@ -21,6 +22,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="stylesheet" href="style.css">
+
 
 <head>
     <meta charset="UTF-8">

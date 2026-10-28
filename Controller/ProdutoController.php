@@ -1,6 +1,6 @@
 
 <?php
-require_once 'C:/Turma2/xampp/htdocs/mvc/Model/ProdutoModel.php';
+require_once 'C:/Turma2/xampp/htdocs/rascunhoprova/Model/ProdutoModel.php';
 
 class ProdutoController {
     private $produtoModel;
