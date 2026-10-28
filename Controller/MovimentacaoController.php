@@ -1,0 +1,20 @@
+<?php
+require_once 'C:/Turma2/xampp/htdocs/mvc/Model/MovimentacaoModel.php';
+
+class MovimentacaoController{
+private $movimentacaoModel;
+
+    public function __construct($pdo) {
+        $this->movimentacaoModel = new MovimentacaoModel($pdo);
+    }
+
+    public function movimento($id_usuario,$id_produto,$quantidade,$tipo){
+return $this->movimentacaoModel->movimento($id_usuario,$id_produto,$quantidade,$tipo);
+
+    }
+    public function listarMovimentos(){
+        return $this->movimentacaoModel->listarMovimentos();
+    }
+
+
+}
